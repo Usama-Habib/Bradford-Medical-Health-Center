@@ -1,0 +1,33 @@
+/* nav bar */
+.navbar-default {
+  background-color:    #f0f5f5;
+  border: none;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover {
+  color: black;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #0392CC;
+}
+.navbar-brand {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand>img {
+  padding-top: 11px;
+  width: 190px;
+  margin-right: 5px;
+}
+
+/* End of nav bar */
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
